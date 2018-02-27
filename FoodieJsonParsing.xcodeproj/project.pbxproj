@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE525C18882440A6C0627741 /* Pods_FoodieJsonParsing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AF05FD9175B40919A584D1 /* Pods_FoodieJsonParsing.framework */; };
 		C6F81C4420446AE70007F7D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F81C4320446AE60007F7D2 /* AppDelegate.swift */; };
 		C6F81C4620446AE70007F7D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F81C4520446AE70007F7D2 /* ViewController.swift */; };
 		C6F81C4920446AE70007F7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F81C4720446AE70007F7D2 /* Main.storyboard */; };
 		C6F81C4B20446AE70007F7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F81C4A20446AE70007F7D2 /* Assets.xcassets */; };
 		C6F81C4E20446AE70007F7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F81C4C20446AE70007F7D2 /* LaunchScreen.storyboard */; };
+		C6F81C552044F4880007F7D2 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F81C562044F4880007F7D2 /* SwiftyJSON.framework */; };
+		C6F81C7720452CFC0007F7D2 /* postDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F81C7620452CFC0007F7D2 /* postDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01FE22A27686AC8B9F52E9B7 /* Pods-FoodieJsonParsing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodieJsonParsing.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodieJsonParsing/Pods-FoodieJsonParsing.release.xcconfig"; sourceTree = "<group>"; };
+		66AF05FD9175B40919A584D1 /* Pods_FoodieJsonParsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodieJsonParsing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F81C4020446AE60007F7D2 /* FoodieJsonParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodieJsonParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F81C4320446AE60007F7D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6F81C4520446AE70007F7D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		C6F81C4A20446AE70007F7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6F81C4D20446AE70007F7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6F81C4F20446AE70007F7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F81C562044F4880007F7D2 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F81C7620452CFC0007F7D2 /* postDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postDataViewController.swift; sourceTree = "<group>"; };
+		DB1B0F70F64AFC687C5AEACE /* Pods-FoodieJsonParsing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodieJsonParsing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodieJsonParsing/Pods-FoodieJsonParsing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F81C552044F4880007F7D2 /* SwiftyJSON.framework in Frameworks */,
+				BE525C18882440A6C0627741 /* Pods_FoodieJsonParsing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F028B5ABE9C0637EF976E3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB1B0F70F64AFC687C5AEACE /* Pods-FoodieJsonParsing.debug.xcconfig */,
+				01FE22A27686AC8B9F52E9B7 /* Pods-FoodieJsonParsing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8C17E63E04AB2EDECCF48DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6F81C562044F4880007F7D2 /* SwiftyJSON.framework */,
+				66AF05FD9175B40919A584D1 /* Pods_FoodieJsonParsing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6F81C3720446AE60007F7D2 = {
 			isa = PBXGroup;
 			children = (
 				C6F81C4220446AE60007F7D2 /* FoodieJsonParsing */,
 				C6F81C4120446AE60007F7D2 /* Products */,
+				5F028B5ABE9C0637EF976E3A /* Pods */,
+				B8C17E63E04AB2EDECCF48DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +86,7 @@
 			children = (
 				C6F81C4320446AE60007F7D2 /* AppDelegate.swift */,
 				C6F81C4520446AE70007F7D2 /* ViewController.swift */,
+				C6F81C7620452CFC0007F7D2 /* postDataViewController.swift */,
 				C6F81C4720446AE70007F7D2 /* Main.storyboard */,
 				C6F81C4A20446AE70007F7D2 /* Assets.xcassets */,
 				C6F81C4C20446AE70007F7D2 /* LaunchScreen.storyboard */,
@@ -71,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F81C5220446AE70007F7D2 /* Build configuration list for PBXNativeTarget "FoodieJsonParsing" */;
 			buildPhases = (
+				CDAE688C9A2F3002661A4C7A /* [CP] Check Pods Manifest.lock */,
 				C6F81C3C20446AE60007F7D2 /* Sources */,
 				C6F81C3D20446AE60007F7D2 /* Frameworks */,
 				C6F81C3E20446AE60007F7D2 /* Resources */,
+				2220136021DAC6D719E6B2D3 /* [CP] Embed Pods Frameworks */,
+				47C62FF029787A3A5A3E0309 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +165,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2220136021DAC6D719E6B2D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodieJsonParsing/Pods-FoodieJsonParsing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodieJsonParsing/Pods-FoodieJsonParsing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47C62FF029787A3A5A3E0309 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodieJsonParsing/Pods-FoodieJsonParsing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDAE688C9A2F3002661A4C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodieJsonParsing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6F81C3C20446AE60007F7D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F81C7720452CFC0007F7D2 /* postDataViewController.swift in Sources */,
 				C6F81C4620446AE70007F7D2 /* ViewController.swift in Sources */,
 				C6F81C4420446AE70007F7D2 /* AppDelegate.swift in Sources */,
 			);
@@ -272,9 +363,11 @@
 		};
 		C6F81C5320446AE70007F7D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1B0F70F64AFC687C5AEACE /* Pods-FoodieJsonParsing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PC6ND5VTK9;
 				INFOPLIST_FILE = FoodieJsonParsing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.im100ruv.FoodieJsonParsing;
@@ -286,9 +379,11 @@
 		};
 		C6F81C5420446AE70007F7D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01FE22A27686AC8B9F52E9B7 /* Pods-FoodieJsonParsing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PC6ND5VTK9;
 				INFOPLIST_FILE = FoodieJsonParsing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.im100ruv.FoodieJsonParsing;
